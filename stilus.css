@@ -1,4 +1,6 @@
 body{
+    max-width: 800px;
+    margin: auto;
     display: grid;
     grid-template-columns: 33% auto 33%;
     grid-gap: 3px;
@@ -22,4 +24,9 @@ body{
 h1{
     text-align: center;
     grid-column: 1/4;
+}
+
+#torzs{
+    grid-column: 1/4;
+    text-align: justify;
 }
